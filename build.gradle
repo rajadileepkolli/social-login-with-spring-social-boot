@@ -54,7 +54,7 @@ dependencies {
         exclude group: 'javax.servlet', module: 'servlet-api'
     }
     compile('org.apache.commons:commons-lang3:3.11')
-    compile('com.google.guava:guava:23.0')
+    compile('com.google.guava:guava:23.6.1-jre')
     compile('com.h2database:h2')
     runtime('org.springframework.boot:spring-boot-devtools')
     compileOnly('org.projectlombok:lombok')
